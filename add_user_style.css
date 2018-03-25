@@ -1,0 +1,257 @@
+/* This is the universal selector i.e. there will be no margin and padding bet text and page */
+*
+{
+  margin:0px;
+  padding: 0px;
+}
+
+
+/* This is for background  images */
+.bgimage
+{
+  background-color: #E5E7E9;
+  background-size: 100% 110%;
+  width: 100%;
+  height: 100vh;
+}
+.menu
+{
+  width: 100%;
+  height:80px;
+  background-color: rgba(0,0,0,0.5);
+}
+.left_menu
+{
+  width:20%;
+  line-height:80px;
+  float: left;
+}
+.left_menu h2
+{
+  padding-left:70px;
+  color:#fff;
+  font-weight: bold;
+  font-family: 'Montserrat',sans-serif;
+}
+.right_menu
+{
+  width:70%;
+  height: 100px;
+  float: right;
+}
+
+.right_menu ul li
+{
+  font-family: 'Montserrat',sans-serif;
+  display: inline-block;
+  color: #fff;
+  list-style: none;
+  font:15px;
+  font-weight: bold;
+  line-height: 80px;
+  margin-left: 60px;
+}
+
+.right_menu ul
+{
+  margin-left: 300px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+i
+{
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+}
+
+i:hover
+{
+  color: orange;
+}
+.right_menu ul li:hover
+{
+  color:orange;
+}
+a
+{
+    text-decoration: none;
+}
+li
+{
+    list-style: none;
+}
+.main_new
+{
+
+  top:80px;
+  position: relative;
+    width:200px;
+    
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5);
+}
+.main_new_ul li a
+{
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px dotted gray;
+}
+.main_new_ul a:hover
+{
+    background-color: rgba(0,0,0,0.9);
+}
+.main_new_ul ul
+{
+    display: none;
+}
+.main_new_ul li:hover ul 
+{
+    display: block;
+}
+.main_new_ul .sub_arroy:after
+{
+    content:'\203A';
+    float:right;
+    margin-right: 20px;
+    transform: rotate(09deg);
+    -webkit-transform: rotate(09deg);
+    -momz-transform: rotate(09deg);
+}
+.main_new_ul ul li .sub_arroy:after
+{
+    content:'\2039'
+}
+
+.main_new_ul ul ul li
+{
+    display: none;
+}
+
+.main_new_ul ul li:hover li
+{
+    background-color: rgba(0,0,0,0.8);
+    display: block;
+}
+
+.footer
+{
+  background-color:#2C3E50;
+  width: 100%;
+  height: 150px;
+}
+.foot
+{
+  color:white;
+  padding: 50px 0 10px 10px;
+  margin-left: 200px;
+  font-size: 20px;
+  word-spacing: 10px;
+}
+a:hover
+{
+  color:orange;
+}
+
+.tables_center
+{
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color:#fff;
+  width: 100%;
+  top:20px;
+  
+}
+input
+{
+  
+  border-radius: 10px;
+  background-color: #B2BABB;
+  color: #fff;
+  font-size: 15px;
+  line-height: 40px; 
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+  width: 300px;
+}
+#move
+{
+  position: relative;
+  left:475px;
+}
+#btnone
+{
+
+  border-radius: 20px;
+  background-color: #fff;
+  border: none;
+  font-size: 12px;
+  font-weight: bold; 
+  line-height: 40px; 
+  font-family: 'Montserrat',sans-serif;
+  text-transform: uppercase;
+  width: 150px;
+  margin-top: 25px;
+  border: 3px solid #fff;
+}
+#btnone:hover
+{
+  color:purple;
+}
+#btntwo
+{
+  margin-left: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: transparent;
+  font-family: 'Montserrat',sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 40px;
+  width: 150px;
+  border: 3px solid #fff;
+  color: #fff;
+
+}
+#btntwo:hover
+{
+  color:yellow;
+}
+select
+{
+  top:10px;
+  border-radius: 10px;
+  background-color: #B2BABB;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px; 
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+  width: 300px 
+
+
+}
+option
+{
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+button
+{
+  margin-left: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color:#212F3D;
+  font-family: 'Montserrat',sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 40px;
+  width: 150px;
+  border: 3px solid #fff;
+  color: #fff;  
+}
